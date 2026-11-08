@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 8px;
+    color: black;
+    background: white;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    width: 115px;
+}
+
+button, select {
+    cursor: pointer;
+}
+
+fieldset {
+    margin-top: 18px;
+    min-height: 60px;
+}
+
+.number-row {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 5px 0;
+}
+
+.number-value {
+    width: 35px;
+}
+
+.parity {
+    width: 45px;
+}
+
+.even {
+    color: green;
+}
+
+.odd {
+    color: blue;
+}
+
+#result {
+    margin-top: 12px;
+    font-weight: bold;
+}
